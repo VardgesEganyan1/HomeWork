@@ -13,7 +13,8 @@ public class ArrayUtil {
         System.out.println();
 
         System.out.println("first value: " + numbers[0]);
-        System.out.println("last value: " + numbers[7]);
+        int lastNum = numbers.length - 1;
+        System.out.println("last value: " + numbers[lastNum]);
         System.out.println("array length: " + numbers.length);
 
 
@@ -56,7 +57,7 @@ public class ArrayUtil {
         }
         System.out.print("amount։ " + amount);
         System.out.println();
-        System.out.println("Arithmetic mean: " + amount/ numbers.length);
+        System.out.println("arithmetic mean: " + amount/ numbers.length);
 
 
     }
