@@ -31,7 +31,7 @@ public class DynamicArray {
 
     public void extend() {
         //1․ ստեղծել հին մասիվից 10 էլեմենտ ավելի մեծ մասիվ
-        int[] array2 = new int[20];
+        int[] array2 = new int[size+10];
 
         //int element = -1;
         //element++;
