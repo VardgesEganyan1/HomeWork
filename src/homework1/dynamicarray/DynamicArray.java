@@ -12,7 +12,7 @@ public class DynamicArray {
 
     public void add(int value) {
 
-        if(size > array.length){
+        if(size == array.length){
             extend();
             //և ավելացնենք
 
