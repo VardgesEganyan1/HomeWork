@@ -1,6 +1,7 @@
 package homework1.dynamicarray;
 
 public class DynamicArray {
+    static int test = 25;
 
     //սա մեր հիմնական մասիվն է, որտեղ պահելու ենք ավելացվող էլեմենտները
     public int[] array = new int[10];
@@ -12,7 +13,7 @@ public class DynamicArray {
 
     public void add(int value) {
 
-        if(size == array.length){
+        if(size > array.length){
             extend();
             //և ավելացնենք
 
@@ -31,7 +32,7 @@ public class DynamicArray {
 
     public void extend() {
         //1․ ստեղծել հին մասիվից 10 էլեմենտ ավելի մեծ մասիվ
-        int[] array2 = new int[size+10];
+        int[] array2 = new int[20];
 
         //int element = -1;
         //element++;

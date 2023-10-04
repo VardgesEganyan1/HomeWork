@@ -16,7 +16,6 @@ public class DynamicArrayTest {
         dynamicArray.add(14);
         dynamicArray.add(25);
         dynamicArray.add(11);
-        dynamicArray.print();
 
 
 
